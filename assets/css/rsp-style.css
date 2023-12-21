@@ -1,0 +1,60 @@
+/* The style for the widget */
+.rsp-recommendations {
+margin: 20px 0;
+padding: 10px;
+border: 1px solid #ccc;
+background: #f0f0f0;
+}
+
+.rsp-recommendations h3 {
+margin: 0;
+padding: 0;
+font-size: 18px;
+font-weight: bold;
+color: #333;
+}
+
+.rsp-recommendations ul {
+margin: 10px 0;
+padding: 0;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.rsp-recommendations li {
+margin: 0;
+padding: 0;
+width: 30%;
+box-sizing: border-box;
+}
+
+.rsp-recommendations a {
+display: block;
+text-decoration: none;
+color: #333;
+}
+
+.rsp-recommendations img {
+width: 100%;
+height: auto;
+}
+
+.rsp-recommendations h4 {
+margin: 10px 0;
+padding: 0;
+font-size: 16px;
+font-weight: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.rsp-recommendations .price {
+margin: 0;
+padding: 0;
+font-size: 14px;
+font-weight: bold;
+color: #f00;
+}
